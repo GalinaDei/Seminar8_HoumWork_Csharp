@@ -34,7 +34,7 @@ void PrintArray(int[,]array)
 }
 int[,]MultiplyMatrix (int[,]matrix1, int[,]matrix2)
 {
-int[,]matrixC= new int[matrix1.GetLength(0),matrix2.GetLength(1)];;
+int[,]matrixC= new int[matrix1.GetLength(0),matrix2.GetLength(1)];
 if(matrix1.GetLength(1)!= matrix2.GetLength(0))
 {
   Console.WriteLine("Матрица 1 должна иметь количество столбцов равное количеству строк матрицы 2");
